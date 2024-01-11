@@ -87,9 +87,9 @@ variable "aws_test_instance_size" {
 #  default = "Standard_B1ms"
 #}
 
-#variable "ace_ec2_key_name" {
-#  default = "ACE"
-#}
+variable "ace_ec2_key_name" {
+  default = "ACE"
+}
 
 variable "ha_enabled" {
   type    = bool
