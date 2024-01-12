@@ -51,41 +51,41 @@ variable "aws_test_instance_size" {
   default = "t2.micro"
 }
 
-#variable "azure_account_name" {
-#  default = "azure-account"
-#}
+variable "azure_account_name" {
+  default = "azure-account"
+}
 
-#variable "azure_subscription_id" {
-#}
+variable "azure_subscription_id" {
+}
 
-#variable "azure_client_id" {
-#}
+variable "azure_client_id" {
+}
 
-#variable "azure_client_secret" {
-#}
+variable "azure_client_secret" {
+}
 
-#variable "azure_tenant_id" {
-#}
+variable "azure_tenant_id" {
+}
 
-#variable "azure_spoke_instance_size" {
-#  default = "Standard_B1ms"
-#}
+variable "azure_spoke_instance_size" {
+  default = "Standard_B1ms"
+}
 
-#variable "azure_spoke2_region" {
-#  default = "Canada Central"
-#}
+variable "azure_spoke2_region" {
+  default = "Canada Central"
+}
 
-#variable "azure_spoke2_name" {
-#  default = "ace-iac-spoke2"
-#}
+variable "azure_spoke2_name" {
+  default = "ace-iac-spoke2"
+}
 
-#variable "azure_spoke2_cidr" {
-#  default = "10.1.212.0/24"
-#}
+variable "azure_spoke2_cidr" {
+  default = "10.1.212.0/24"
+}
 
-#variable "azure_test_instance_size" {
-#  default = "Standard_B1ms"
-#}
+variable "azure_test_instance_size" {
+  default = "Standard_B1ms"
+}
 
 variable "ace_ec2_key_name" {
   default = "ACE"
